@@ -16,7 +16,7 @@ main:
     la $a0, Ques      
     syscall 
     
-    # Se ingresa hasta que liminte quiere que imprima la serie
+    # Se ingresa hasta que limite quiere que imprima la serie
     li $v0, 5
     syscall
     move $t2, $v0        # Límite de la serie (cambia según necesites)

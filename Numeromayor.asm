@@ -61,12 +61,12 @@ main:
         j fin
 
     MayorT1:
-        move $t3, $t1
+        move $t3, $t1	# Almacenar $t1 (el número mayor) en $t3
         bgt $t2, $t3, MayorT2
         j fin
 
     MayorT2:
-        move $t3, $t2
+        move $t3, $t2	 # Almacenar $t2 (el número mayor) en $t3
         j fin
 
     SonIguales:
